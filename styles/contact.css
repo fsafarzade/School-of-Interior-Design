@@ -1,0 +1,57 @@
+footer {
+    margin: 20px 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+.contact{
+    margin-top: 6vh;
+}
+
+.block_6 {
+    border: 10px solid rgb(255, 136, 0);
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    margin-left: -20px;
+}
+
+#text2{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 14px;
+    line-height: 25px;
+}
+
+
+.contact h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.block_6 h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.block_6 p {
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+.block_6 button {
+    background-color: #2A405EFF;
+    border-radius: 4px;
+    color: #fff !important;
+    padding: 15px 25px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    margin-top: 40px;
+}

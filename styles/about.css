@@ -1,0 +1,94 @@
+.about {
+    padding: 25px 0;
+}
+
+.flex-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-about img {
+    width: 270px;
+    height: 350px;
+}
+
+.flex-about div {
+    border: 10px solid #E68C51FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 350px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.flex-text-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex-text-about p {
+    width: 70%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.flex-text-about button {
+    background-color: #2A405EFF;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 50px;
+    outline: none;
+    border: none;
+    display: block;
+    margin-top: 14px;
+    width: 15%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.flex-text-about button:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .flex-about {
+        flex-direction: column;
+    }
+
+    .flex-about img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 18px;
+    }
+
+    .flex-about img:last-child {
+        margin-bottom: 0;
+    }
+
+    .flex-about div {
+        width: 100%;
+    }
+
+    .flex-text-about {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-text-about p {
+        width: 100%;
+    }
+
+    .flex-text-about button {
+        width: 100%;
+    }
+}
